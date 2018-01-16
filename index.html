@@ -1,0 +1,43 @@
+<html>
+<style>
+  input {
+    margin: 10px 0px 10px 14px;
+  }
+
+  td {
+    padding: 5px;
+  }
+</style>
+
+<body>
+  <div>
+    <p style="background-color: #2b98ef;color:white;font-weight:bold;width:800px;height:30px;vertical-align:middle;padding-left:25px;padding-top:10px;">Query</p>
+    </br>
+    <label for="name">Vessel Name</label><input name="name" />
+    <label for="name">MMSI</label><input name="mmsi" /><br/>
+    <label for="name">CallSign/AIS Tag</label><input name="callsign" />
+    <label for="name">IMO</label><input name="imo" /><br/>
+    <label for="name" style="font-weight:bold;">Cargo Details</label><input name="cargo_enabled" type="checkbox" />
+  </div>
+  <br/>
+  <br/>
+  <h2>Results</h2>
+  <br/>
+  <br/>
+  <table border=1>
+    <tr>
+      <td>Maersk Virginia</td>
+      <td>1234567</td>
+      <td>abcdefg</td>
+      <td>ORF</td>
+      <td>LGH</td>
+      <td>OGH</td>
+      <td><a href="#" style="
+    border-bottom: 1px dashed #3F51B5;
+    text-decoration: none;color:black;
+    ">cargo details</a></td>
+    </tr>
+  </table>
+</body>
+
+</html>
