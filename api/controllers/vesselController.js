@@ -35,7 +35,7 @@ exports.get_vessel = function (req, res) {
     res.status(500).send('Invalid table, ' + vesselTable)
   } else {
     let vessel = vessels.find({
-      id: req.params.id
+      id: req.params.vesselId
     })
     if (!vessel.value()) {
       res.status(404).send(req.params.id + 'not found')
