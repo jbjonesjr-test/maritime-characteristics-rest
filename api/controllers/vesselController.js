@@ -50,7 +50,7 @@ exports.update_vessel = function (req, res) {
   if (!vessels.value()) {
     res.status(500).send('Invalid table, ' + vesselTable)
   } else {
-    vessels.find({ id: req.body.id })
+    vessels.find({ id: req.params.vesselId })
       .assign(req.body)
       .write().value()
   }
@@ -61,7 +61,7 @@ exports.delete_vessel = function (req, res) {
   if (!vessels.value()) {
     res.status(500).send('Invalid table, ' + vesselTable)
   } else {
-    vessels.remove({id: req.body.id})
+    vessels.remove({id: req.params.vesselId})
       .write()
     res.status(200)
   }
