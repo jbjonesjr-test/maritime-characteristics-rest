@@ -1,0 +1,34 @@
+{
+  "name": "maritime-characteristics-rest",
+  "version": "0.5.0",
+  "description": "Restful service providing maritime characteristics on request",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbjonesjr-test/maritime-characteristics-rest.git"
+  },
+  "keywords": [
+    "maritime",
+    "rest",
+    "http",
+    "ship-characteristics"
+  ],
+  "author": "@jbjonesjr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbjonesjr-test/maritime-characteristics-rest/issues"
+  },
+  "homepage": "https://github.com/jbjonesjr-test/maritime-characteristics-rest#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "lowdb": "^1.0.0",
+    "shortid": "^2.2.8"
+  }
+}
