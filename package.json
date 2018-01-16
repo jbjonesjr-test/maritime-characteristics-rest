@@ -44,6 +44,7 @@
     "nodemon": "^1.14.11"
   },
   "dependencies": {
+    "aws-serverless-express": "^3.0.2",
     "express": "^4.16.2",
     "lowdb": "^1.0.0",
     "shortid": "^2.2.8"
