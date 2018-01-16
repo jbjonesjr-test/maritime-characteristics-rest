@@ -87,7 +87,7 @@ Resources:
     Type: AWS::IAM::Role
   mda1:
     Properties:
-      CodeUri: s3://lambda-transfer-mda-1/d7d40cfd8c93e2ffad79ba33c41aca37
+      CodeUri: s3://lambda-transfer-mda-1/44584009ca804935c360d7c67a92fa40
       Events:
         ProxyApiGreedy:
           Properties:
