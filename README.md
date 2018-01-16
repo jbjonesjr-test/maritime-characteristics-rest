@@ -15,7 +15,7 @@ Rest-based service providing lookup and retrieval of maritime vessel characters
 * Home Port of Call/World Port Index Details
 * Origin Port
 * Destination Port
-
+* Cargo data via CBP
 
 | NOTE: |
 |:------:|
