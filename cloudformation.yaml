@@ -49,17 +49,17 @@ Resources:
           - ":"
           - !Ref ApiGatewayApi
           - "/*/*"
-    RDSSubnet1:
-      Type: AWS::EC2::Subnet
-      Properties:
-        VpcID:
-          Ref: VPC
-    MyRDS:
-      Type: AWS::RDS::DBInstance
-      Properties:
-        MultiAZ: false
-        AllowMajorVersionUpgrade: true,
-        Engine: postgres
+  RDSSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcID:
+        Ref: VPC
+  MyRDS:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      MultiAZ: false
+      AllowMajorVersionUpgrade: true,
+      Engine: postgres
 
   mda1:
     Type: AWS::Serverless::Function
