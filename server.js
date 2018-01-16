@@ -17,4 +17,4 @@ app.listen(port)
 console.log('vessel characteristics RESTful API server started on: ' + port)
 
 // Lambda has the app being the entry point
-module.exports = app
+ module.exports = app

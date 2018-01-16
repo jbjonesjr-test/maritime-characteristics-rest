@@ -38,7 +38,7 @@ exports.get_vessel = function (req, res) {
       id: req.params.vesselId
     })
     if (!vessel.value()) {
-      res.status(404).send(req.params.id + 'not found')
+      res.status(404).send(req.params.vesselId + ' not found')
     } else {
       res.json(vessel.value())
     }

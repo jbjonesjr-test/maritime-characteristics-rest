@@ -1,6 +1,6 @@
 {
   "vessels": [
-    { "id": 1, "vesselName": "Maesrk Georgia", "imo": 9155119, "mmsi": null, "flag":"PW", "aisTag":"T8A2311", "home_port":null, "destination_port":null, "origin_port":null},
-    { "id": 2, "vesselName": "Maersk Arkansas", "imo": 9164251, "mmsi": 477694100, "flag":"HK", "aisTag":"VRNJ8", "home_port":"ORF", "destination_port":"ALG", "origin_port":"LMS"},
-      { "id": 3, "vesselName": "Maersk Virginia", "imo": 9235531, "mmsi": 477195100, "flag":"HK", "aisTag":"VRMD3", "home_port":"HK", "destination_port":"PUS", "origin_port":"FPO"}
+    { "id": "1", "vesselName": "Maesrk Georgia", "imo": 9155119, "mmsi": null, "flag":"PW", "aisTag":"T8A2311", "home_port":null, "destination_port":null, "origin_port":null},
+    { "id": "2", "vesselName": "Maersk Arkansas", "imo": 9164251, "mmsi": 477694100, "flag":"HK", "aisTag":"VRNJ8", "home_port":"ORF", "destination_port":"ALG", "origin_port":"LMS"},
+      { "id": "3", "vesselName": "Maersk Virginia", "imo": 9235531, "mmsi": 477195100, "flag":"HK", "aisTag":"VRMD3", "home_port":"HK", "destination_port":"PUS", "origin_port":"FPO"}
   ]}
